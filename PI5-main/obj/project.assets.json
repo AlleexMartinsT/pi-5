@@ -2172,11 +2172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alex\\Desktop\\PI5-main\\pi5.csproj",
+      "projectUniqueName": "C:\\Users\\alex\\Downloads\\PI5-main\\pi5.csproj",
       "projectName": "pi5",
-      "projectPath": "C:\\Users\\alex\\Desktop\\PI5-main\\pi5.csproj",
+      "projectPath": "C:\\Users\\alex\\Downloads\\PI5-main\\pi5.csproj",
       "packagesPath": "C:\\Users\\alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alex\\Desktop\\PI5-main\\obj\\",
+      "outputPath": "C:\\Users\\alex\\Downloads\\PI5-main\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alex\\AppData\\Roaming\\NuGet\\NuGet.Config"

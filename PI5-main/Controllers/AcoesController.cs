@@ -30,5 +30,12 @@ public class AcoesController:ControllerBase{
     public Task MelhorAcao() {
         return _acoesService.MelhorAcao();
     }
+    
+    [HttpGet("simular-ganhos-perdas/{nomeAcao}")]
+    public Task<decimal> SimularGanhosPerdas(string nomeAcao)
+    {
+    return _acoesService.SimularGanhosPerdas(nomeAcao);
+    }
+
 
 }

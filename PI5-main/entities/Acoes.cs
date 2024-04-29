@@ -1,5 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.SignalR;
+using Microsoft.Net.Http.Headers;
 
 namespace pi5.entities;
 
@@ -9,9 +11,5 @@ public class Acoes{
     public string Nome{ get ; set;}
     public string Sigla{ get ; set;}
     public string Logo{ get ; set;}
-
-    // Propriedades para armazenar os resultados da análise
-        public decimal MediaMovel { get; set; }
-        public decimal DesvioPadrao { get; set; }
 
 }

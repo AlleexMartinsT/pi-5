@@ -19,11 +19,11 @@ jobs:
           dotnet-version: '6.0.x'
 
       - name: Restore
-        run: dotnet restore ./CurrentTimeService.sln
+        run: dotnet restore ./pi5.sln
 
       - name: Build
-        run: dotnet build ./CurrenteTimeService.sln --configuration Release --no-restore
+        run: dotnet build ./pi5.sln --configuration Release --no-restore
 
       - name: Publish
-        run: dotnet publish ./CurrenteTimeService.sln --configuration Release --no-build
+        run: dotnet publish ./pi5.sln --configuration Release --no-build
         

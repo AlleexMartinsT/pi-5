@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish:
-    runs-on: windows-lastest
+    runs-on: windows-latest
 
     steps:
       - uses: actions/checkout@v3
